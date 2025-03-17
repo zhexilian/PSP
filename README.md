@@ -19,3 +19,8 @@ This is a NGSIM data process method for trajectory prediction and planning. The 
 cd cd PSP-Physical-informed-Sparse-learning-for-interaction-aware-vehicle-trajectory-Prediction/src/
 python utils/data_process.py
 ```
+The data processing log will be printed through your terminal.  
+![图片](https://github.com/user-attachments/assets/185c6e0d-fc45-4ad2-9191-a0e0a9794e71)
+## Training
+
+
