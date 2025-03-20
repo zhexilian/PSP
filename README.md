@@ -29,5 +29,8 @@ python train.py
 ```
 This script will train the model for **five times** with five different random seeds.  
 The **training log** will be saved in `log/`.  
-The model **checkpoints** will be saved in `checkpoints/`.
+The model **checkpoints** will be saved in `checkpoints/`.  
+The step-by-step evaluation during the training process is shown below. (left is ADE; right is FDE)
+![Uploading training_ade.svg…]()
+
 ## Testing
