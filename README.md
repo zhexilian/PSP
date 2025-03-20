@@ -31,6 +31,5 @@ This script will train the model for **five times** with five different random s
 The **training log** will be saved in `log/`.  
 The model **checkpoints** will be saved in `checkpoints/`.  
 The step-by-step evaluation during the training process is shown below. (left is ADE; right is FDE)
-![Uploading training_ade.svg…]()
-
+![图片](https://github.com/zhexilian/PSP-Physical-informed-Sparse-learning-for-interaction-aware-vehicle-trajectory-Prediction/blob/main/training_ade.svg)![图片](https://github.com/zhexilian/PSP-Physical-informed-Sparse-learning-for-interaction-aware-vehicle-trajectory-Prediction/blob/main/training_fde.svg)  
 ## Testing
