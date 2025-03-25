@@ -1,5 +1,5 @@
 # PSP-Physical-informed-Sparse-learning-for-interaction-aware-vehicle-trajectory-Prediction
-Submitted to 2025 ITSC. The whole code will be born before 5.1 
+Submitted to 2025 ITSC. **The whole code will be born before 5.1** 
 # Getting start
 ## Installation
 Clone this repo firstly:    
