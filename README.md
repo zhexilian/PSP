@@ -25,7 +25,7 @@ cd PSP-Physical-informed-Sparse-learning-for-interaction-aware-vehicle-trajector
 python utils/data_process.py
 ```
 The data processing log will be printed through your terminal.  
-![图片](https://github.com/user-attachments/assets/185c6e0d-fc45-4ad2-9191-a0e0a9794e71)
+<img src="https://github.com/user-attachments/assets/185c6e0d-fc45-4ad2-9191-a0e0a9794e71" width="60%">
 ## Training
 Chang settings as you wish in `src/config/config.yaml`  
 Train the model:  
