@@ -4,11 +4,11 @@ Submitted to 2025 ITSC. **The whole code will be born before 5.1**
 # Highlight of our repo  
 + **Complete and detailed code comments**
 + **Clear code architecture**
-+ **Easy to run locally(6.5GB GPU memory need)**
++ **Easy to run locally (3.4GB GPU memory need at a batchsize of 128)**
 # Paper contributions  
 + **We introduce a physical-informed modeling paradigm for vehicle trajectory prediction problem.** Based on the state-space representation of modern control theory, this paradigm integrates two main components: i) the vehicle kinematic component that reflects vehicles’ inherent physical dynamics, and ii) the data-driven component that captures prediction-centric features from data.
 + **We explicitly model interactions between vehicles for enhanced vehicle trajectory prediction capability.** The aforementioned data-driven component is explicitly modeled and designed to be interaction-aware, enabling it to capture complex inter-vehicle interactions. To learn the data-driven component, we design a neural network which fully accounts for interactions between vehicles.
-+ **We proposed a sparse learning framework for learning the prediction model efficiently.** The learning sparsity of PSP has two practices: i) the feature tensors in hidden layers of the network are sparsely sampled during forward propagation; ii) the sparsity penalty term is added into the loss function.
++ **We propose a sparse learning framework for learning the prediction model efficiently.** The learning sparsity of PSP has two practices: i) the feature tensors in hidden layers of the network are sparsely sampled during forward propagation; ii) the sparsity penalty term is added into the loss function.
 
 # Getting start
 ## Installation
