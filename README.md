@@ -4,7 +4,7 @@ Submitted to 2025 ITSC. **The whole code will be born before 5.1**
 # Highlight of our repo  
 + **Complete and detailed code comments**
 + **Clear code architecture**
-+ **Easy to run locally**
++ **Easy to run locally(6.5GB GPU memory need)**
 # Paper contributions  
 + **We introduced a physical-informed modeling paradigm for vehicle trajectory prediction problem.** Based on the state-space representation, this paradigm contains two main components: i) the vehicle kinematic component that captures vehicles’ inherent physical dynamics, and ii) the data-driven component that learns implicit features from data.
 + **We deeply considered interactions between vehicles for enhanced vehicle trajectory prediction capability.** The aforementioned data-driven component is designed to be interaction-aware, enabling it to capture complex inter-vehicle interactions. To learn the data-driven component, we design a neural network which fully accounts for interactions between vehicles.
