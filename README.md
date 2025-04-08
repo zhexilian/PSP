@@ -34,8 +34,15 @@ The data processing log will be printed through your terminal.
 <img src="https://github.com/user-attachments/assets/185c6e0d-fc45-4ad2-9191-a0e0a9794e71" width="60%">
 ## Training
 Chang settings as you wish in `src/config/config.yaml`  
+Create new folder：  
+```python
+cd ..
+mkdir log/
+mkdir checkpoints/
+```
 Train the model:  
 ```Python
+cd src/
 python train.py
 ```
 This script will train the model for **five times** with five different random seeds.  
