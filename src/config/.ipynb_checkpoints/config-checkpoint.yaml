@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+
+# Path
+paths:
+  origin_data_dir: r'../original_data/'
+  processed_data_dir: r"../processed_data/"
+  logging_path: r"../log/"
+  ckpt_path: r"../checkpoints/"
+  test_path: r"../test_results/"
+
+# Training
+training:
+  name: "v0319"
+  device: "cuda:0"
+  lr: 0.001
+  batchsize: 256
+  hist_len: 40
+  future_len: 50
+  epochs: 50
+  weight_decay: 0.02
+  optimizer_step_size: 2000
+  seed_pool: [42, 54, 62, 83]
