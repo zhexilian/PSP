@@ -1,6 +1,5 @@
 # PSP-Physical-informed-Sparse-learning-for-interaction-aware-vehicle-trajectory-Prediction
 Submitted to 2025 ITSC. **The whole code will be born before 5.1**  
-# Abstract
 # Highlight of our repo  
 + **Complete and detailed code comments**
 + **Clear code architecture**
@@ -34,14 +33,28 @@ The data processing log will be printed through your terminal.
 <img src="https://github.com/user-attachments/assets/185c6e0d-fc45-4ad2-9191-a0e0a9794e71" width="60%">
 ## Training
 Chang settings as you wish in `src/config/config.yaml`  
+Create new folder：  
+```python
+cd ..
+mkdir log/
+mkdir checkpoints/
+```
 Train the model:  
 ```Python
+cd src/
 python train.py
 ```
 This script will train the model for **five times** with five different random seeds.  
 The **training log** will be saved in `log/`.  
 The model **checkpoints** will be saved in `checkpoints/`.  
 ## Testing  
+Create new folder：  
 ```Python
+cd ..
+mkdir test_results/
+```
+Testing:  
+```python
 python test.py
 ```
+The **testing results** will be saved in `test_results/`
