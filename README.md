@@ -57,3 +57,4 @@ Testing:
 ```python
 python test.py
 ```
+The **testing results** will be saved in `test_results/`
