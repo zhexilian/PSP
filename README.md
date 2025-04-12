@@ -5,6 +5,8 @@ Submitted to 2025 ITSC. **The whole code will be born before 5.1**
 + **Clear code architecture**
 + **Easy to run locally (3.4GB GPU memory need at a batchsize of 128)**
 # Paper contributions  
+<img src="https://github.com/zhexilian/PSP-Physical-informed-Sparse-learning-for-interaction-aware-vehicle-trajectory-Prediction/blob/main/figures/framework.svg" width="40%">  
+
 + **We introduce a novel physical-informed modeling paradigm to enhance physical plausibility of predictions.** Based on the state-space representation of modern control theory, this paradigm integrates two main components: i) the vehicle kinematic component that reflects vehicles’ inherent physical dynamics, and ii) the data-driven component that captures prediction-centric features from data.
 + **We explicitly model interactions between vehicles for enhanced vehicle trajectory prediction explainability.** The aforementioned data-driven component is designed to be interaction-aware and explicitly modeled, enabling it to capture and explain complex inter-vehicle interactions. To learn the data-driven component, we design a neural network which fully accounts for interactions between vehicles.
 + **We propose a sparse learning framework to learn the prediction model efficiently.** The learning sparsity in PSP has two practices: i) feature tensors in hidden layers are sparsely sampled during forward propagation; ii) a sparsity regularization term is incorporated into the loss function. These designs enable the model to focus on critical features while reducing training complexity. 
