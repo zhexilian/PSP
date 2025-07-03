@@ -1,5 +1,7 @@
 # PSP-Physical-informed-Sparse-learning-for-interaction-aware-vehicle-trajectory-Prediction
-Submitted to 2025 ITSC as a regular paper.  
+
+# News  
++ This paper is accepted by IEEE ITSC 2025 as a conference paper !!!
 # Highlight of our repo  
 + **Complete and detailed code comments**
 + **Clear code architecture**
