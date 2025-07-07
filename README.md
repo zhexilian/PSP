@@ -1,7 +1,7 @@
 # PSP-vehicle-trajectory-Prediction
 
 # News  
-+ This paper is accepted by IEEE ITSC 2025 as a conference paper !!!
++ This paper is accepted by IEEE ITSC 2025 as a conference regular paper !!!
 # Highlight of our repo  
 + **Complete and detailed code comments**
 + **Clear code architecture**
