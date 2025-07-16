@@ -30,7 +30,10 @@ conda activate 25ITSC
 This is a NGSIM data processing method for trajectory prediction and planning. The original NGSIM data is transformed to numpy frames (.npz). Each frame contains the ego vehicles' history trajectory, the nearby N agents' history trajectories, the map features and the ground truth of future trajectories. Firstly, you need to decompress pre-processed data in folder "original_data/". There is a csv and it is collected from https://github.com/Rim-El-Ballouli/NGSIM-US-101-trajectory-dataset-smoothing.  
 To run data processing:
 ```Python
-cd PSP-Physical-informed-Sparse-learning-for-interaction-aware-vehicle-trajectory-Prediction/src/
+cd PSP-Physical-informed-Sparse-learning-for-interaction-aware-vehicle-trajectory-Prediction/
+mkdir original_data/   #where the data should upload to
+mkdir processed_data/
+cd src/
 python utils/data_process.py
 ```
 The data processing log will be printed through your terminal.  
