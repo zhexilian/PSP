@@ -1,7 +1,7 @@
 # PSP-vehicle-trajectory-Prediction
 
 # News  
-+ This paper is accepted by IEEE ITSC 2025 as a conference regular paper !!!
++ 😄😄😄This paper is accepted by IEEE ITSC 2025 as a conference regular paper !!!
 # Highlight of our repo  
 + **Complete and detailed code comments**
 + **Clear code architecture**
@@ -17,11 +17,11 @@
 ## Installation
 Clone this repo firstly:    
 ```Python
-git clone https://github.com/zhexilian/PSP-Physical-informed-Sparse-learning-for-interaction-aware-vehicle-trajectory-Prediction.git
+git clone https://github.com/zhexilian/PSP.git
 ```
 Create the virtual conda environment using the `environment.yaml`:    
 ```Python
-cd PSP-Physical-informed-Sparse-learning-for-interaction-aware-vehicle-trajectory-Prediction/
+cd PSP/
 cd src/
 conda env create -f environment.yaml
 conda activate 25ITSC
